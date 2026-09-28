@@ -3,168 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giải Pháp Tiêu Biểu - Ứng dụng công nghệ số trong học tập</title>
-
-    <!-- Tailwind CSS CDN -->
+    <title>Lab05 - Ứng dụng công nghệ số trong học tập</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background: linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
+        }
+    </style>
 </head>
+<body class="text-gray-800 antialiased">
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <header class="mb-10">
+            <div class="bg-white rounded-2xl shadow-lg border border-blue-100 overflow-hidden">
+                <div class="bg-gradient-to-r from-blue-700 via-indigo-700 to-cyan-600 px-6 py-10 md:px-10 md:py-12">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                        <div>
+                            <p class="text-blue-100 uppercase tracking-[0.2em] text-xs font-semibold">Bài thực hành Lab05</p>
+                            <h1 class="mt-3 text-3xl md:text-5xl font-extrabold text-white leading-tight">
+                                Ứng dụng công nghệ số trong học tập
+                            </h1>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-xl px-5 py-4 min-w-[220px]">
+                            <p class="text-sm text-blue-100">Chủ đề chính</p>
+                            <p class="text-lg font-semibold mt-1">Giải pháp tiêu biểu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-<body class="bg-gray-50 text-gray-800">
-
-    <!-- Nội dung chính -->
-    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-
-        <!-- Tiêu đề chính -->
-        <section class="text-center mb-10">
-            <h1 class="text-3xl md:text-4xl font-bold text-blue-700">
-                Giải Pháp Tiêu Biểu
-            </h1>
-
-            <p class="mt-3 text-gray-600 text-base md:text-lg">
-                Ứng dụng công nghệ số trong học tập
-            </p>
-        </section>
-
-        <!-- Khu vực 3 cards -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-
-            <!-- Card 1: Điện toán đám mây -->
-            <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-                
-                <!-- Biểu tượng đám mây -->
-                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 mb-5">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         class="w-8 h-8"
-                         fill="none"
-                         viewBox="0 0 24 24"
-                         stroke="currentColor"
-                         stroke-width="2">
-                        <path stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M3 15a4 4 0 004 4h10a4 4 0 000-8h-.26A7 7 0 005.2 9.24 4 4 0 003 15z" />
-                    </svg>
+        <section class="mb-12">
+            <div class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 md:p-8">
+                <div class="flex items-center gap-3 mb-5">
+                    <span class="w-3 h-3 rounded-full bg-blue-600"></span>
+                    <h2 class="text-2xl md:text-3xl font-bold text-blue-700">Thông tin cá nhân</h2>
                 </div>
 
-                <h4 class="text-xl font-bold text-gray-800 mb-3">
-                    Điện Toán Đám Mây
-                </h4>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="rounded-xl border border-blue-100 bg-blue-50 p-4 hover:shadow-md transition">
+                        <p class="text-sm font-medium text-blue-700 uppercase tracking-wide">Họ và tên</p>
+                        <p class="mt-2 text-lg font-bold text-gray-800">Thạch Thị Phan Anh</p>
+                    </div>
+                    <div class="rounded-xl border border-indigo-100 bg-indigo-50 p-4 hover:shadow-md transition">
+                        <p class="text-sm font-medium text-indigo-700 uppercase tracking-wide">MSSV</p>
+                        <p class="mt-2 text-lg font-bold text-gray-800">B2605329</p>
+                    </div>
+                    <div class="rounded-xl border border-emerald-100 bg-emerald-50 p-4 hover:shadow-md transition">
+                        <p class="text-sm font-medium text-emerald-700 uppercase tracking-wide">Lớp học phần</p>
+                        <p class="mt-2 text-lg font-bold text-gray-800">CT005/D04</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <p class="text-gray-600 leading-relaxed">
-                    Lưu trữ an toàn, truy cập tài liệu mọi lúc mọi nơi. Google Drive, OneDrive hay Dropbox giúp sinh viên làm việc nhóm và chia sẻ dữ liệu chỉ với một cú click chuột.
+        <section class="mb-12">
+            <div class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 md:p-8">
+                <div class="flex items-center gap-3 mb-5">
+                    <span class="w-3 h-3 rounded-full bg-violet-600"></span>
+                    <h2 class="text-2xl md:text-3xl font-bold text-slate-800">Giới thiệu chủ đề</h2>
+                </div>
+                <p class="text-base md:text-lg leading-relaxed text-gray-700">
+                    Công nghệ số đang ngày càng đóng vai trò quan trọng trong quá trình học tập, giúp sinh viên tiếp cận tri thức nhanh hơn,
+                    nâng cao hiệu quả học tập và tạo điều kiện cho sự sáng tạo, hợp tác và tự học. Từ công cụ lưu trữ trực tuyến, trí tuệ nhân tạo,
+                    đến nền tảng học tập số, các giải pháp công nghệ đã mang đến nhiều cách thức mới để học tập hiệu quả hơn, chủ động hơn và linh hoạt hơn.
                 </p>
             </div>
-
-            <!-- Card 2: Trí tuệ nhân tạo -->
-            <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-                
-                <!-- Biểu tượng máy tính / AI -->
-                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-purple-100 text-purple-600 mb-5">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         class="w-8 h-8"
-                         fill="none"
-                         viewBox="0 0 24 24"
-                         stroke="currentColor"
-                         stroke-width="2">
-
-<rect x="3" y="4" width="18" height="14" rx="2" ry="2"></rect>
-<path stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M8 21h8M12 18v3M8 9h8M8 13h5" />
-                    </svg>
-                </div>
-
-                <h4 class="text-xl font-bold text-gray-800 mb-3">
-                    Trí Tuệ Nhân Tạo (AI)
-                </h4>
-
-                <p class="text-gray-600 leading-relaxed">
-                    Từ ChatGPT đến các công cụ dịch thuật, phân tích dữ liệu. AI hỗ trợ giải đáp thắc mắc tự động, tóm tắt bài giảng và lên ý tưởng sáng tạo vượt trội.
-                </p>
-            </div>
-
-            <!-- Card 3: Học trực tuyến -->
-            <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-                
-                <!-- Biểu tượng quyển sách -->
-                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-green-100 text-green-600 mb-5">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         class="w-8 h-8"
-                         fill="none"
-                         viewBox="0 0 24 24"
-                         stroke="currentColor"
-                         stroke-width="2">
-                        <path stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 014 15.5v-10z" />
-                        <path stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M4 15.5A2.5 2.5 0 016.5 13H20M8 7h8M8 10h5" />
-                    </svg>
-                </div>
-
-                <h4 class="text-xl font-bold text-gray-800 mb-3">
-                    Học Trực Tuyến
-                </h4>
-
-                <p class="text-gray-600 leading-relaxed">
-                    Nền tảng học trực tuyến giúp kết nối giảng viên và sinh viên mọi lúc mọi nơi.
-                </p>
-            </div>
-
         </section>
 
-        <!-- Infographic -->
-        <section class="mt-12">
-            <div class="bg-white rounded-xl shadow-md p-6">
-                <h2 class="text-2xl font-bold text-center text-blue-700 mb-6">
-                    Infographic Công Nghệ Số
-                </h2>
+        <section class="mb-12">
+            <div class="mb-6 text-center">
+                <p class="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">Các giải pháp tiêu biểu</p>
+                <h2 class="mt-2 text-3xl font-bold text-slate-800">Những ứng dụng mang lại giá trị thực tiễn</h2>
+            </div>
 
-                <!--
-                    THAY TÊN FILE ẢNH TẠI ĐÂY:
-                    Đặt file infographic vào cùng thư mục với file HTML
-                    và đổi "infographic-cong-nghe-so.jpg" thành tên file ảnh thực tế.
-                -->
-                <div class="flex justify-center">
-                    <img
-                        src="infographic-cong-nghe-so.jpg"
-                        alt="Infographic về công nghệ số trong học tập"
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+                <article class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 mb-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h10a4 4 0 000-8h-.26A7 7 0 005.2 9.24 4 4 0 003 15z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Điện toán đám mây</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Lưu trữ, đồng bộ và chia sẻ tài liệu mọi lúc mọi nơi, giúp sinh viên làm việc nhóm hiệu quả và bảo mật dữ liệu tốt hơn.
+                    </p>
+                </article>
 
-class="w-full max-w-4xl rounded-lg shadow-sm object-cover"
-                    >
-                </div>
-                </div>
-        </section>
+                <article class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 flex items-center justify-center rounded-full bg-purple-100 text-purple-600 mb-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="14" rx="2" ry="2"></rect>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8 21h8M12 18v3M8 9h8M8 13h5" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Trí tuệ nhân tạo (AI)</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        AI hỗ trợ giải đáp nhanh, tóm tắt nội dung, dịch thuật, phân tích dữ liệu và khơi gợi ý tưởng sáng tạo trong học tập.
+                    </p>
+                </article>
 
-        <!-- YouTube Video -->
-        <section class="mt-12">
-            <div class="bg-white rounded-xl shadow-md p-6">
-                <h2 class="text-2xl font-bold text-center text-red-600 mb-6">
-                    Video về Công Nghệ Số
-                </h2>
-
-                <div class="relative w-full overflow-hidden rounded-lg"
-                     style="padding-bottom: 56.25%;">
-
-                    <iframe
-                        class="absolute top-0 left-0 w-full h-full"
-                        src="https://www.youtube.com/embed/ZguNNgBo-ms"
-                        title="Video về ứng dụng công nghệ số trong học tập"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
-
-                </div>
+                <article class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 flex items-center justify-center rounded-full bg-green-100 text-green-600 mb-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 014 15.5v-10z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 15.5A2.5 2.5 0 016.5 13H20M8 7h8M8 10h5" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Học trực tuyến</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Nền tảng trực tuyến giúp kết nối giảng viên - sinh viên, học mọi lúc mọi nơi và quản lý tiến độ học tập hiệu quả.
+                    </p>
+                </article>
             </div>
         </section>
 
+        <section class="mb-12">
+            <div class="bg-white rounded-2xl shadow-md border border-slate-200 p-6 md:p-8">
+                <div class="flex items-center justify-between mb-6 flex-col sm:flex-row gap-3">
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-red-500">Sản phẩm Lab05</p>
+                        <h2 class="mt-2 text-3xl font-bold text-slate-800">Các sản phẩm đã thực hiện</h2>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <article class="rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:shadow-lg transition">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center rounded-full bg-red-100 text-red-700 px-3 py-1 text-xs font-semibold">Nhiệm vụ 1.2</span>
+                            <span class="text-xs text-slate-500">PDF</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">File báo cáo PDF</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                            Mở tài liệu PDF chứa nội dung nhiệm vụ thực hành đã hoàn thành.
+                        </p>
+                        <a href="Lab05_Ex1.1_pdf.pdf" target="_blank" rel="noopener noreferrer"
+                           class="inline-flex items-center justify-center w-full rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-3 transition">
+                            Mở file PDF
+                        </a>
+                    </article>
+
+                    <article class="rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:shadow-lg transition">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center rounded-full bg-amber-100 text-amber-700 px-3 py-1 text-xs font-semibold">Nhiệm vụ 2.1</span>
+                            <span class="text-xs text-slate-500">Ảnh</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Hình ảnh minh họa</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                            Hình ảnh thực tế trong repository được hiển thị trực tiếp trên trang để minh họa nội dung công nghệ số trong học tập.
+                        </p>
+                        <div class="overflow-hidden rounded-xl border border-slate-200 bg-white p-2">
+                            <img src="infographic-cong-nghe-so.jpg" alt="Infographic về công nghệ số trong học tập" class="w-full h-56 object-cover rounded-lg mx-auto" />
+                        </div>
+                    </article>
+
+                    <article class="rounded-2xl border border-slate-200 bg-slate-50 p-5 hover:shadow-lg transition">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="inline-flex items-center rounded-full bg-rose-100 text-rose-700 px-3 py-1 text-xs font-semibold">Nhiệm vụ 3.1</span>
+                            <span class="text-xs text-slate-500">Video</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Video YouTube</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                            Video trực tiếp về ứng dụng công nghệ số trong học tập được nhúng vào trang web.
+                        </p>
+                        <div class="overflow-hidden rounded-xl border border-slate-200">
+                            <div class="relative w-full" style="padding-bottom: 56.25%;">
+                                <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/ZguNNgBo-ms" title="Video minh họa công nghệ số trong học tập" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- Chân trang -->
-    <footer class="text-center py-6 text-sm text-gray-500">
-        Ứng dụng công nghệ số trong học tập
+    <footer class="bg-slate-900 text-slate-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
+            <p class="text-sm">© 2026 - Ứng dụng công nghệ số trong học tập</p>
+            <p class="mt-2 text-xs text-slate-400">Nội dung được xây dựng phục vụ bài thực hành Lab05, hỗ trợ bởi công nghệ AI để tối ưu hóa trình bày.</p>
+        </div>
     </footer>
-
 </body>
 </html>
